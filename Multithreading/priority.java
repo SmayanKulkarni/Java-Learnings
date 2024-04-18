@@ -6,7 +6,16 @@ class mythr extends Thread {
     }
 
     public void run() {
-        while(true) System.out.println("This thread is here: " + this.getName());
+        while(true) 
+        {
+        System.out.println("This thread is here: " + this.getName());
+        try {
+            Thread.sleep(455);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
     }
 
 }
@@ -19,6 +28,14 @@ class priority {
         t1.setPriority(Thread.MAX_PRIORITY);
         t2.setPriority(Thread.MIN_PRIORITY);
         t3.setPriority(Thread.MIN_PRIORITY);
+        try
+        {
+            t1.join(); //t2 wont start before t1 ends
+        }
+        catch(Exception e)
+        {
+            System.out.println(e);
+        }
         t1.start();
         t2.start();
         t3.start();
