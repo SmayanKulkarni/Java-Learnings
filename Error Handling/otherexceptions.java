@@ -15,13 +15,13 @@ public class otherexceptions {
         int ans = arr[ind]/k;
         System.out.println(ans);
         }
-        catch(ArithmeticException e){z
+        catch(ArithmeticException e){
             System.out.println("The problem could not be solved due to: ");
             System.out.println(e);
         }
         catch(ArrayIndexOutOfBoundsException e){
             System.out.println("The problem could not be solved due to: ");
-            System.out.println(e); // important 
+            System.out.println(e); // important fr
         }
         catch(Exception e)
         {
