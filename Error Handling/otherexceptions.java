@@ -21,7 +21,7 @@ public class otherexceptions {
         }
         catch(ArrayIndexOutOfBoundsException e){
             System.out.println("The problem could not be solved due to: ");
-            System.out.println(e); // important fr
+            System.out.println(e); // important fr ong man
         }
         catch(Exception e)
         {
