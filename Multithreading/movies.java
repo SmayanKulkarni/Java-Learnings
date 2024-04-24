@@ -56,7 +56,7 @@ class bookmovieseat
         }
         public void run()
         {
-            b.bookseats(seats);
+            b.bookseats(seats);   //yess
         }
 
     }
