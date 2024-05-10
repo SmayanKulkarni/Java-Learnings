@@ -1,0 +1,6 @@
+1. String is a primitive data type
+2. Is a sequence of characters
+3 .String is a class : 
+    public final class String extends Object implements CharSequence, Serializable, Comparable{
+        ...
+    }
