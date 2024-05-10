@@ -4,3 +4,28 @@
     public final class String extends Object implements CharSequence, Serializable, Comparable{
         ...
     }
+4. A string is an immutable Object.
+5. 3 main classes of String: 
+    i.      String
+    ii.     StringBuffer
+    iii.    String Builder
+
+String Constant Pool: Special memory location in heap to store string literals.
+    Memory present inside the heap memory, so it can change size as per need.
+
+        String s1 = new String("smayan") : s1 points to object created in heap, but the string literal creates 
+        another object in the SCP, JVM internally points to the obj in the SCP.
+
+        String s2 = "rahul" : s2 points to object created in the SCP.
+
+        String objects in the SCP cannot be deleted by garbage collection.
+        If multiple strings have same literals then separate objects are created in the heap but they have a common obj in SCP.
+
+    Strings are Immutable in Java as String objects are cached in String Pool, string literals are shared between multiple 
+    strings, so one change can change the values for all other linked strings.
+
+String is a final class, so it cannot be extended into child classes.
+
+Multiple Strings can be concatenated using + operator.
+
+Strings are immutable so they are thread safe and solve synchronization issues.
