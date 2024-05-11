@@ -29,3 +29,4 @@ String is a final class, so it cannot be extended into child classes.
 Multiple Strings can be concatenated using + operator.
 
 Strings are immutable so they are thread safe and solve synchronization issues.
+""==" operator is used to compare memory location and .equals() is used to compare the components of the string. 
