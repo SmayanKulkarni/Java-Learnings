@@ -1,10 +1,8 @@
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.border.Border;
-import javax.swing.BorderFactory;
-import javax.swing.ImageIcon;
-import java.awt.Color;
-import java.awt.Font;
+import javax.swing.*;
+import javax.swing.border.*;
+
+import java.awt.*;
+
 
 class labels {
     public static void main(String args[]) {   
