@@ -1,2 +1,2 @@
-label.setVerticalAlignment(100);
-        // label.setHorizontalAlignment(100);
+label.setVerticalAlignment(JLabel.CENTER);
+        // label.setHorizontalAlignment(JLabel.CENTER);
