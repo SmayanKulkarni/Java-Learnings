@@ -21,13 +21,11 @@ class labels {
         label.setBackground(Color.BLACK);
         label.setIconTextGap(20);
         
-        label.setFont(new Font("Serif", Font.BOLD, 30));
         label.setOpaque(true);
         label.setVerticalAlignment(JLabel.CENTER);
         label.setHorizontalAlignment(JLabel.CENTER);
-        label.setBounds(100,0,250,250);
-
         label.setBounds(0,0,250,250);
+        
         JFrame frame = new JFrame();
         frame.setTitle("1st Java GUI");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
