@@ -33,7 +33,7 @@ class error extends TestThrow
         }
         catch(Exception e)
         {
-            System.out.println("Error message: "+e);
+            System.out.println("Error message: "+e); // big error as of now
         }
     }
 }
