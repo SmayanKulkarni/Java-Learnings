@@ -25,7 +25,7 @@ public class MyFrame extends JFrame implements ActionListener{
   //comboBox.removeAllItems();
   
   this.add(comboBox);
-  this.pack();
+  this.pack(); //ending of the gui here
   this.setVisible(true);
  }
  
