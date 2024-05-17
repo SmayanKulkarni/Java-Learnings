@@ -26,7 +26,7 @@ public class MyFrame extends JFrame implements ActionListener{
   
   this.add(comboBox);
   this.pack(); //ending of the gui here
-  this.setVisible(true);
+  this.setVisible(true);//useful here still
  }
  
  @Override
